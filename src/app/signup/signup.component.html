@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <label for="" class="form-label">Name</label>
+                    <input type="text" class="form-control"name="name" [(ngModel)]="name">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <label for="" class="form-label">DOB</label>
+                    <input type="text" class="form-control"name="dob" [(ngModel)]="dob">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <label for="" class="form-label">Phone NUmber</label>
+                    <input type="text" class="form-control"name="phone"[(ngModel)]="phone">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <label for="" class="form-label">Place</label>
+                    <input type="text" class="form-control"name="place"[(ngModel)]="place">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <label for="" class="form-label">Email Id</label>
+                    <input type="text" class="form-control"name="email_id"[(ngModel)]="email_id">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <label for="" class="form-label">Password</label>
+                    <input type="password" class="form-control"name="password"[(ngModel)]="password">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <label for="" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control"name="confirm_password"[(ngModel)]="confirm_password">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button class="btn btn-success" (click)="readValue()">REGISTER</button>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <a routerLink="/">Back to login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
